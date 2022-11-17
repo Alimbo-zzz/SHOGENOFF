@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>SHOGENOFF</title>
+	<link rel="stylesheet" href="./styles/index.css">
+
+
+
+	<script src="./scripts/index.js" defer=""></script>
+	<!-- defer -- скрипт запускается только после HTML кода -->
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="logo"><img src="./assets/images/Logo.png" alt=""></div>
+				<nav class="navigation">
+					<ul class="navigation__list">
+						<li data-type='page-link' data-name='page-main' class="navigation__item" data-active='true'>Главная</li>
+						<li data-type='page-link' data-name='page-about' class="navigation__item">Обо мне</li>
+						<li data-type='page-link' data-name='page-hobby' class="navigation__item">Хобби</li>
+						<li data-type='page-link' data-name='page-contacts' class="navigation__item">Контакты</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section data-type='page' id='page-main' data-active='true'>
+				<img src="./assets/images/Tint.jpg" data-img='image-intro'>
+				<div class="container">
+					<div class="intro">
+						<h1 class="title">Welcome to SHOGENOFF</h1>
+						<p class="text">Приветствую всех обывателей сети Интернет. На этом сайте вы найдёте информацию о моей жизни, моих увлечениях и хобби. Так же на последней странице вы можете оставить свой комментарий или связаться со мной лично.</p>
+					</div>
+				</div>
+			</section>
+			<section data-type='page' id='page-about'>
+				<img src="./assets/images/дерево_2.jpg" data-img='image-intro'>
+				<div class="container">
+					<div class="profile">
+						<div class="profile__avatar"><img src="./assets/images/avatar.jpg"></div>
+						<div class="profile__content">
+							<p class="text">Зовут меня <span>Шогенов Эльдар Заурович</span>. Учусь в лучшем университете города - КБГУ в Институте ИИиЦТ, кафедра компьютерных технологий  и информационной безопасности.</p>
+							<p class="text">Живу очень интересной жизнью, каждый день как новое приключение. В свои <span>19 лет</span> я полностью преисполнился в своем познании настолько, что я как будто бы уже сто триллионов миллиардов лет проживаю <br> на триллионах и триллионах таких же планет, как эта Земля, мне этот мир абсолютно понятен, и я здесь ищу только одного - покоя, умиротворения и вот этой гармонии, <br> от слияния с бесконечно вечным, от созерцания великого фрактального подобия и от вот этого замечательного всеединства существа, бесконечно вечного, куда ни посмотри, хоть вглубь - бесконечно малое, хоть ввысь - бесконечное большое.</p>
+							<p class="text">Обладаю навыками социальной инженерии, программирую на двух языках программирования: <span>python и C++</span>. <br> В свободное время изучаю механики <span>Unreal Engine 5</span> и систему визуального скриптинга Blueprint. Периодически увлекался пентестингом, хочу стать высококвалифицированным специалистом в сфере информационной безопасности.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-type='page' id='page-hobby'>
+				<img src="./assets/images/фон.jpg" data-img='image-intro'>
+				<div class="container">
+					<h2 class="title" data-lang='ru'>Занимался спортом всю жизь</h2>
+					<ul class="gallery">
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/greko-rimskaya1.jpg"></div>
+							<p class="text">5 лет ходил на греко-римскую борьбу</p>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/karate.jpg"></div>
+							<p class="text">4 года занимался карате</p>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/medali.jpg"></div>
+							<p class="text">Многократный призёр карате по юниорам</p>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/dzydo2.jpg"></div>
+							<p class="text">3 года занимался дзюдо</p>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/crossfit.jpg"></div>
+							<p class="text">На данном этапе жизни остановился на увеличении показателей здоровья с помощью кроссфита</p>
+						</li>
+						<li class="gallery__item">
+							<div class="gallery__img"><img src="./assets/images/vecher.png"></div>
+							<p class="text">Дневные и вечерние прогулки как смысл жизни, без них никак</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section data-type='page' id='page-contacts'>
+				<img src="./assets/images/Map_Image.jpg" data-img='image-intro'>
+				<div class="container">
+
+					<h2 class="title" data-lang='ru'>Мои соц сети</h2>
+
+					<div class="socials">
+						<ul class="socials__list">
+							<li class="socials__item">
+								<a target='blanck' href="https://vk.com/eshog">
+									<i class="icon-vk"></i>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a target='blanck' href="https://t.me/Eldaruda">
+									<i class="icon-telegram"></i>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a target='blanck' href="mailto:eldarshogenov03@gmail.com">
+									<i class="icon-gmail"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<h2 class="title" data-lang='ru'>Обратная связь</h2>
+
+					<form class="form" autocomplete="off">
+						<label class="form__block" data-block='text'>
+							<input
+								name='name'
+								class="inp"
+								required
+								type="text"
+								placeholder='Ваше имя'
+								maxlength='30'>
+							</label>
+						<label class="form__block" data-block='text'>
+							<input
+								name='mail'
+								class="inp"
+								required
+								type="email"
+								placeholder='E-mail'
+								maxlength='30'>
+							</label>
+						<label class="form__block" data-block='textarea'>
+							<textarea
+								name='message'
+								class="inp"
+								required
+								maxlength='400'
+								placeholder='Ваше обращение (макс. кло-во символов 400)'></textarea>
+						</label>
+						<div class="form__block" data-block='btns'>
+							<button type='submit'>Отправить</button>
+							<button type='reset'>Очистить</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer-box">
+					<div class="footer-box__created">© SHOGENOFF 2022</div>
+					<ul class="footer-box__links">
+						<li class="footer-box__link"><a href="tel:89287020014" class="link">+7(928) 702 00-14</a></li>
+						<li class="footer-box__link"><a href="mailto:eldarshogenov03@gmail.com" class="link">eldarshogenov03@gmail.com</a></li>
+						<li class="footer-box__link"><a href="https://t.me/Eldaruda" class="link">@Eldaruda</a></li>
+					</ul>
+					<div class="footer-box__quote">
+						<p class="text">Оставаться наедине со своими мыслями — весьма опасное занятие... но очень полезное!</p>
+						<i>© Джонни Депп</i>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
