@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nightelf';
+    src: url('Nightelf-Regular.eot');
+    src: local('Nightelf Regular'), local('Nightelf-Regular'),
+        url('Nightelf-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Nightelf-Regular.woff2') format('woff2'),
+        url('Nightelf-Regular.woff') format('woff'),
+        url('Nightelf-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

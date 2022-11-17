@@ -1,0 +1,151 @@
+#page-contacts{
+	padding-bottom: 4em;
+}
+
+
+
+#page-contacts [data-img='image-intro']{
+	object-position: right top;
+}
+
+#page-contacts h2.title{
+	margin: 1em 0;
+	color: var(--decorative-text-color);
+}
+
+/* form */
+
+.form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:2em;
+	row-gap:1em;
+	width: 100%;
+	max-width: max(60%, 450px);
+}
+
+.form .inp{
+	height: 100%;
+}
+
+
+.form [data-block='textarea']{
+	grid-column: 1/3;
+	height: 120px;
+}
+
+
+.inp{
+	display: block;
+	width: min(100%, 400px);
+	padding: 0.5em;
+	border: none;
+	outline: none;
+	border-radius: 0.2em;
+	background: var(--main-text-color);
+	transition: 0.3s;
+}
+
+.inp:focus{
+	background: var(--decorative-text-color);
+}
+
+textarea.inp{
+	width: min(100%, 600px);
+}
+
+
+.form [data-block='btns']{
+	display: flex;
+	align-items: center;
+	gap:2em;
+}
+
+
+.form [data-block='btns'] button[type='reset']{
+	background: none;
+	border:none;
+	cursor: pointer;
+	padding: 0.2em 1.5em;
+	color: var(--main-second-color);
+	position: relative;
+	transition: 0.3s;
+}
+
+.form [data-block='btns'] button[type='reset']::before{
+	content: '';
+	position: absolute;
+	left: 50%;bottom: 0;
+	height: 0.1em;
+	width: calc(100% - 3em);
+	transition: inherit;
+	background: currentColor;
+	transform: translateX(-50%) scale(0);
+}
+
+.form [data-block='btns'] button[type='reset']:hover::before{
+	transform: translateX(-50%) scale(1);
+}
+
+.form [data-block='btns'] button[type='submit']{
+	background: var(--decorative-text-color);
+	border: none;
+	padding: 0.2em 1.5em;
+	border-radius: 0.3em;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.form [data-block='btns'] button[type='submit']:active{
+	transform: scale(0.9);
+}
+
+.form [data-block='btns'] button[type='submit']:hover{
+	padding-top: 0.05em;
+	padding-bottom: 0.35em;
+	box-shadow: 0.1em 0.1em 0.8em 0.1em rgba(234,197,51, 0.5);
+}
+
+
+
+/* socials */
+
+
+
+.socials{
+	max-width: 300px;
+}
+
+
+.socials__list{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap:1em;
+}
+
+.socials__item{
+}
+
+.socials__item a {
+	color: currentColor;
+	font-size: 2.5em;
+	display: block;
+	width: 1.5em;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: var(--main-bg-color);
+	background: var(--decorative-text-color);
+	border: 0.05em solid transparent;
+}
+
+.socials__item a:hover{
+	background: var(--main-bg-color);
+	color: var(--decorative-text-color);
+	border-color: currentColor;
+}

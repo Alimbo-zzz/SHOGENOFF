@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  // убирает синий фон при клике на кнопку (mobile)
+  scroll-behavior: smooth;
+  // плавный скролл для всех елементов
+}
+
+body {
+  height: 100%;
+  font-family: tahoma, verdana;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; letter-spacing: 0em}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img{
+  display: block;
+}
+
+input,
+button,
+textarea,
+select { font: inherit; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0;
+  -webkit-text-fill-color: #852587; // цвет текста
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+}
+
+// УБРАТЬ ЦВЕТ АВТОЗАПОЛНЕНИЯ INPUT
+
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea { vertical-align: middle; }
+
+textarea { resize: none; }
+
+input,
+select,
+button { outline: none; }
+
+a{
+	text-decoration: none;
+}
+
+svg{
+  width: 1em; height: 1em;
+  fill: currentColor;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, a, span, i, b, input, textarea, code, pre, strong, {
+  font-size: 1rem;
+}

@@ -1,0 +1,44 @@
+#page-about{
+	padding-top: 8em;
+	padding-bottom: 4em;
+}
+
+
+
+.profile{
+	display: flex;
+	align-items: center;
+	gap: max(50px, 8vw);
+
+}
+
+
+.profile .profile__avatar{
+	width: 280px;
+	min-width: 280px;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0 0 1em 0.3em rgba(254,209,54, 0.2);
+}
+
+.profile .profile__avatar img{
+	width: 100%; height: 100%;
+	object-fit: cover;
+	object-position: center;
+	user-select: none;
+	pointer-events: none;
+}
+
+
+.profile .profile__content{
+	display: flex;
+	flex-direction: column;
+	gap:1em;
+}
+
+
+.profile .profile__content span{
+	color: var(--decorative-text-color);
+	font-family: nightelf;
+	font-size: 1.6em;
+}

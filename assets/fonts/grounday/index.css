@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Grounday';
+    src: url('Grounday.eot');
+    src: local('Grounday'),
+        url('Grounday.eot?#iefix') format('embedded-opentype'),
+        url('Grounday.woff2') format('woff2'),
+        url('Grounday.woff') format('woff'),
+        url('Grounday.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

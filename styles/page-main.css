@@ -1,0 +1,35 @@
+#page-main{
+	height: clamp(500px, 100vh, 650px);
+}
+
+
+
+
+.intro{
+	width: clamp(340px, 100%, 800px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap:2em;
+	position: absolute;
+	left: 50%;top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+#page-main .intro .text{
+	text-align: center;
+	width: min(100%, 550px);
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+
+#page-main h1.title{
+	text-align: center;
+	width: 100%;
+	/* mix-blend-mode: overlay; */
+	/* color: #fff; */
+}
