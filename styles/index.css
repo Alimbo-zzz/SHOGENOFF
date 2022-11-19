@@ -21,7 +21,8 @@
 @import url('./page-hobby.css');
 @import url('./page-contacts.css');
 
-
-
 /* active classes */
 @import url('./active-sections.css');
+
+/* media */
+@import url('./media.css');

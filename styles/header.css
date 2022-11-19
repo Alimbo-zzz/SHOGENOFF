@@ -82,3 +82,32 @@ header .container{
 	padding-bottom: 0.2em;
 	pointer-events: none;
 }
+
+
+
+
+/* tracker */
+
+.tracker{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: capitalize;
+
+	border-radius: 100px;
+	background: var(--decorative-text-color);
+	padding: 0.5em;
+	width: 200px;
+	min-width: 200px;
+	color: #222;
+
+	display: none;
+}
+
+
+.tracker__btn{
+	background: none;
+	border:none;
+	padding: 0 0.5em;
+	font-weight: bold;
+}
